@@ -1,4 +1,11 @@
-#Mountain Guru Tech Fest 2025 – Registration Page
+Mountain Guru Tech Fest 2025 – Registration Page
+
+
+
+
+
+
+
 
 This project is part of the Introduction to CSS Assignment.
 It demonstrates the use of HTML and CSS together to build a structured, styled, and responsive event registration page.
@@ -105,6 +112,8 @@ This project fulfills all assignment requirements:
 
 Adding a hero banner image for visual impact.
 
-Responsive design adjustments for mobile view.
+Making the design responsive for mobile view.
 
 Adding hover effects to the table rows and form buttons.
+
+✨ Submitted as part of the Introduction to CSS Assignment ✨
