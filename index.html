@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Guru Tech Fest 2025 - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>Welcome to Mountain Guru TECH FEST 2025</h1>
+        <nav>
+            <ul>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- REGISTRATION FORM -->
+    <main>
+        <section id="register">
+            <h2>Register Now</h2>
+            <form action="submit_registration.php" method="post" autocomplete="on">
+                <!-- READONLY REGISTRATION ID -->
+                <label for="regid">Registration ID:</label>
+                <input type="text" id="regid" name="regid" value="CONF2025-001" readonly><br><br>
+
+                <!-- Name -->
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
+
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email"><br><br>
+
+                <!-- Phone -->
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+254 700 123456" required><br><br>
+
+                <!-- Password -->
+                <label for="password">Create Password:</label>
+                <input type="password" id="password" name="password" placeholder="Choose a strong password" required><br><br>
+
+                <!-- Ticket Type (Select Dropdown) -->
+                <label for="ticket">Ticket Type:</label>
+                <select id="ticket" name="ticket" required>
+                    <option value="">-- Select Ticket Type --</option>
+                    <option value="vip">VIP</option>
+                    <option value="regular">Regular</option>
+                    <option value="student">Student</option>
+                </select><br><br>
+
+                <!-- Workshops (Checkboxes) -->
+                <p>Select Workshops (optional):</p>
+                <input type="checkbox" id="ai" name="workshop" value="AI">
+                <label for="ai">AI & Machine Learning</label><br>
+                <input type="checkbox" id="web" name="workshop" value="Web">
+                <label for="web">Modern Web Development</label><br>
+                <input type="checkbox" id="cyber" name="workshop" value="Cyber">
+                <label for="cyber">Cybersecurity</label><br><br>
+
+                <!-- Submit -->
+                <button type="submit">Submit Registration</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- EVENT MEDIA -->
+        <section id="media">
+            <h2>Event Media</h2>
+            <audio controls>
+                <source src="Welcome MGTF2025-2-enhanced-v21.wav" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+
+        <!-- EVENT HIGHLIGHTS (LISTS) -->
+        <section id="highlights">
+            <h2>Event Highlights</h2>
+
+            <h3>Perks</h3>
+            <ul>
+                <li>Free Wi-Fi</li>
+                <li>Networking Sessions</li>
+                <li>Top Industry Speakers</li>
+                <li>Exhibition Booths</li>
+            </ul>
+ 
+            <h3>Steps to Register</h3>
+            <ol>
+                <li>Fill out the registration form</li>
+                <li>Make your payment online</li>
+                <li>Receive confirmation email</li>
+                <li>Attend the event with your ticket</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- EVENT SCHEDULE (TABLE) -->
+        <section id="schedule">
+            <h2>Event Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activity</th>
+                        <th>Speaker</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09:00 - 10:00</td>
+                        <td colspan="2">Opening Ceremony</td>
+                    </tr>
+                    <tr>
+                        <td>10:15 - 11:15</td>
+                        <td>Keynote Speech</td>
+                        <td rowspan="2">Dr. Jane Smith</td>
+                    </tr>
+                    <tr>
+                        <td>11:30 - 12:30</td>
+                        <td>Future of Artificial Intelligence</td>
+                    </tr>
+                    <tr>
+                        <td>14:00 - 15:00</td>
+                        <td>Building Secure Web Apps</td>
+                        <td>John Doe</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <dl>
+            <dd>Email: info@mgtechfest2025.com</dd>
+            <dd>Phone: +254 782 244 032</dd>
+            <dd>Location: Nairobi, Kenya</dd>
+        </dl>
+        <p>&copy; 2025 Mountain Guru Tech Fest 2025</p>
+    </footer>
+</body>
+</html>
