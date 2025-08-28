@@ -1,45 +1,110 @@
-# 🎨 Assignment: CSS Basics & The Box Model
+Mountain Guru Tech Fest 2025 – Registration Page
 
-## Overview
+This project is part of the Introduction to CSS Assignment.
+It demonstrates the use of HTML and CSS together to build a structured, styled, and responsive event registration page.
 
-This assignment introduces you to the foundational principles of CSS—how to style web content, apply essential styling properties, and understand the powerful concept of the CSS Box Model. You’ll practice writing clean, organized CSS that brings structure and visual appeal to an HTML page.
+📂 Deliverables
 
-## Objective
+index.html → Contains the structured HTML content of the page.
 
-Your goal is to create a visually styled web page using only CSS. You will apply basic styling rules to text, backgrounds, and layout elements, and demonstrate an understanding of how the CSS Box Model affects spacing and sizing on the page.
+style.css → External stylesheet that applies design, typography, and layout rules.
 
-## What You'll Practice
+Both files work together to fulfill the assignment requirements.
 
-* Connecting CSS to your HTML (external stylesheet)
-* Using basic CSS properties such as `color`, `font-size`, `margin`, `padding`, `border`, and `background`
-* Structuring your layout with awareness of how the Box Model influences spacing and dimensions
-* Writing clean and maintainable CSS selectors and rules
+📝 Features Demonstrated
+✅ Proper Use of Selectors & Basic Styling
 
-## Instructions
+ID selectors for linking navigation to specific sections.
 
-Start with a basic HTML structure and create a separate CSS file named `styles.css`. Link it to your HTML file. Apply various styles to headings, paragraphs, and container sections.
+Class selectors and element selectors for styling forms, lists, tables, and layout.
 
-Use the Box Model deliberately—experiment with margin, padding, and borders to see how they affect the layout. Apply background colors to visualize box boundaries. You may also style buttons, navigation, and card-like sections to demonstrate your grasp of spacing and alignment.
+Hover effects for navigation links and buttons.
 
-No JavaScript or external CSS libraries (like Bootstrap) should be used.
+✅ CSS Box Model
 
-## Deliverables
+Margin → Creates space between elements (e.g., sections and headers).
 
-Submit the following files:
+Padding → Adds inner spacing for better readability.
 
-* `index.html`: A basic HTML page with structured content.
-* `styles.css`: Your external stylesheet containing all your CSS rules.
+Border → Used around tables and form fields.
 
-Both files should work together to showcase:
+✅ Consistent Spacing, Sizing & Layout
 
-* Proper use of selectors and basic styling properties
-* Clear implementation of the CSS Box Model
-* Consistent spacing, sizing, and layout styling
+Navigation styled as a horizontal menu.
 
-## Tips
+Sections separated with spacing and <hr> rules for clarity.
 
-* Correct linkage of HTML and CSS files
-* Use of appropriate CSS selectors and properties
-* Demonstration of the Box Model through visual layout (clear use of margin, padding, and borders)
-* Readability and organization of CSS code (indentation, comments, spacing)
-* Overall appearance and clarity of styled content
+Tables styled with borders, alternating row background, and aligned text.
+
+Forms styled with clear labels, inputs, and a consistent button.
+
+🎨 Typography
+
+The entire page uses the Montserrat font family (imported via Google Fonts).
+
+Font weights vary for headings, body text, and buttons, giving a clear hierarchy.
+
+📑 Page Sections
+
+Header & Navigation
+
+Title of the event.
+
+Navigation links to all major sections.
+
+Registration Form
+
+Form fields for name, email, phone, and password.
+
+Dropdown for ticket type.
+
+Checkboxes for workshop selection.
+
+Event Media
+
+Audio playback of a welcome message.
+
+Highlights
+
+Unordered list of perks.
+
+Ordered list of registration steps.
+
+Schedule
+
+Table showing event activities with row/column spans.
+
+Footer (Contact)
+
+Contact details using a description list.
+
+🚀 How to Run
+
+Download both files:
+
+index.html
+
+style.css
+
+Place them in the same folder.
+
+Open index.html in a browser.
+The page will load with all styles applied from style.css.
+
+📌 Assignment Coverage
+
+This project fulfills all assignment requirements:
+
+✅ Proper use of selectors and basic styling properties.
+
+✅ Clear implementation of the CSS Box Model.
+
+✅ Consistent spacing, sizing, and layout styling across the page.
+
+💡 Optional improvements (beyond assignment):
+
+Adding a hero banner image for visual impact.
+
+Responsive design adjustments for mobile view.
+
+Adding hover effects to the table rows and form buttons.
